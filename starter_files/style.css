@@ -1,0 +1,54 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #dddddd;
+}
+
+body > div{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    padding: 50px;
+
+
+    box-shadow: 0 0 6px rgba( 0, 0, 0, 0.2 );
+}
+
+
+header {
+  background-color: #ff8523;
+  padding: 2em;
+}
+
+
+.main_navigation a {
+  padding: 0.25em 1em;
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  font-weight: normal;
+}
+
+
+.all_headers {
+  color: #1fabe5;
+}
+/* review and see if a class can be defined and used to change the font family
+for the entire page instead of by individual elements(header, body etc.)*/
