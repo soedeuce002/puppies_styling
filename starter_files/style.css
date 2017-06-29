@@ -25,7 +25,7 @@ body > div{
     margin-right: auto;
     background: white;
     padding: 50px;
-
+    border: 1px solid #ffd24a;
 
     box-shadow: 0 0 6px rgba( 0, 0, 0, 0.2 );
 }
@@ -34,8 +34,12 @@ body > div{
 header {
   background-color: #ff8523;
   padding: 2em;
+
 }
 
+li {
+  font-weight: bold;
+}
 
 .main_navigation a {
   padding: 0.25em 1em;
