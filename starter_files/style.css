@@ -33,6 +33,7 @@ body > div{
 header {
     background-color: #ff8523;
     padding: 2em;
+    /*check out span for having the header background fill the entire page?? */
   }
 
 li {
@@ -46,6 +47,7 @@ table, tr, td {
   thead {
     color: white;
     background-color: #1fabe5;
+    
   }
 
 form {
