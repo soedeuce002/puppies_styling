@@ -16,7 +16,7 @@ colors:
 body {
   font-family: Helvetica, Arial, sans-serif;
   line-height: 1.6;
-  background-color: #dddddd;
+  background-color: gray;
 }
 
 body > div{
@@ -24,22 +24,43 @@ body > div{
     margin-left: auto;
     margin-right: auto;
     background: white;
-    padding: 50px;
+    padding: 20px;
     border: 1px solid #ffd24a;
 
     box-shadow: 0 0 6px rgba( 0, 0, 0, 0.2 );
-}
-
+  }
 
 header {
-  background-color: #ff8523;
-  padding: 2em;
+    background-color: #ff8523;
+    padding: 2em;
+    
 
-}
+  }
 
 li {
-  font-weight: bold;
+    font-weight: bold;
+  }
+
+
+table, tr, td {
+  border: 1px solid #1fabe5;
+  border-collapse: collapse;
+
+  }
+
+form {
+  background-color: #eee;
+  padding: 2em;
+  border-radius: 5px;
 }
+
+#table_head {
+  background-color: #1fabe5;
+  color: white;
+  border: 1px solid black;
+  }
+
+
 
 .main_navigation a {
   padding: 0.25em 1em;
@@ -54,5 +75,12 @@ li {
 .all_headers {
   color: #1fabe5;
 }
+
+.name {
+  background-color: #ff8523;
+  padding: 1em;
+  border-radius: 5px;
+}
+
 /* review and see if a class can be defined and used to change the font family
 for the entire page instead of by individual elements(header, body etc.)*/
