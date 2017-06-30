@@ -14,47 +14,88 @@ colors:
 */
 
 body {
+  width: 1000px;
   font-family: Helvetica, Arial, sans-serif;
   line-height: 1.6;
   background-color: gray;
   }
 
-body > div{
-    width: 600px;
-    margin-left: auto;
-    margin-right: auto;
+body > div {
+    margin: 0 10%;
     background: white;
-    padding: 20px;
     border: 1px solid #ffd24a;
-
     box-shadow: 0 0 6px rgba( 0, 0, 0, 0.2 );
-  }
+      }
 
-header {
-    background-color: #ff8523;
-    padding: 2em;
-    /*check out span for having the header background fill the entire page?? */
-  }
+
+section {
+  border-bottom: 2px solid gray;
+  padding-bottom: 20px;
+}
 
 li {
     font-weight: bold;
   }
-
+table {
+  width: 100%;
+}
 table, tr, td {
   border: 1px solid #1fabe5;
   border-collapse: collapse;
   }
+
   thead {
     color: white;
     background-color: #1fabe5;
-    
+
   }
+  thead th{
+    border: 1px solid black;
+  }
+
+td > img {
+  width: 100px;
+  height: 100px;
+  padding-top: .75em;
+  padding-left: .75em;
+}
 
 form {
   background-color: #eee;
   padding: 2em;
   border-radius: 5px;
   }
+
+textarea {
+  border: 1px solid #1fabe5;
+  width: 100%;
+
+}
+
+  #site_header {
+    background-color: #ff8523;
+
+    }
+
+  #page_content {
+    padding: 20px;
+    }
+
+  #logo {
+    display: inline-block;
+    padding-left: 1em;
+    padding-top: 1.5em;
+  }
+
+  #submit_button {
+    background-color: #1fabe5;
+    color: white;
+    border-radius: 5px;
+    border: none;
+  }
+.main_navigation {
+  padding: 1em;
+}
 
 .main_navigation a {
   padding: 0.25em 1em;
@@ -75,5 +116,7 @@ form {
   border-radius: 5px;
   }
 
-/* review and see if a class can be defined and used to change the font family
-for the entire page instead of by individual elements(header, body etc.)*/
+.city_container {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}

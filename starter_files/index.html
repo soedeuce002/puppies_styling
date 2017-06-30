@@ -10,14 +10,20 @@
 <!--clean up alignment if needed...definitely need in CSS -->
         <div>
             <header id="site_header">
+<!--why the hell did they have the img nested in an anchor?? I feel like it
+has something to with the fact that we what to distinguish this image from any images
+in the table.  but inspecting it, the way they don't line up together or that the image
+doesn't fit inside the anchor, and the fact that the image doesn't rely on the anchor to
+exist doesn't make sense to me. -->
 
-                <a id="logo"><img src="img/logo.png" alt="Puppy Logo"></a>
+                <a id="logo" href="#"><img src="img/logo.png" alt="Puppy Logo"></a>
 
                 <nav class="main_navigation">
                     <a href="#">Puppies</a>
                     <a href="#">Dog Breeds</a>
                     <a href="#">So Cute</a>
                 </nav>
+
             </header>
 
             <div id="page_content">
@@ -36,7 +42,7 @@
                     </ul>
                 </section>
 
-                <hr>
+
 
                 <section>
                     <h2 class="all_headers">Table</h2>
@@ -79,9 +85,7 @@
                     </table>
 
                 </section>
-<!--I know the <hr> tags are not what should be used but haven't yet figured out.
-I want to make a box; tried styling a div but unsuccessful -->
-              <hr>
+
 
                 <section>
                     <h2 class="all_headers">Puppy love!</h2>
